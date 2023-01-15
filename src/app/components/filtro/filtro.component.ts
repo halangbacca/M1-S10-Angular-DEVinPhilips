@@ -8,9 +8,9 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class FiltroComponent {
   lista: string[] = ['Todos', 'Não lidos', 'Lidos'];
 
-  @Output() clique = new EventEmitter<string>();
+  @Output() eventClick: EventEmitter<any> = new EventEmitter();
 
-  onClick(event: any) {
-    this.clique.emit(event);
+  onClick() {
+    this.eventClick.emit();
   }
 }
