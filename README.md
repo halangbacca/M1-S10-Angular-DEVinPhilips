@@ -1,4 +1,4 @@
-# NotificationApp
+# M1-S10-Angular-DEVinPhilips
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
